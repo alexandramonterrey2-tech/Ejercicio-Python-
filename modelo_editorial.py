@@ -1,5 +1,3 @@
-from modelo_recolector import Recolector
-
 class Editorial:
     def __init__(self, nombre, direccion, telefono):
         self.nombre = nombre
@@ -26,4 +24,5 @@ if __name__ == "__main__":
     editorial.imprimir_info()
     dato_busqueda = input("Ingrese el dato de búsqueda para ventas: ")
     editorial.vender(dato_busqueda)
+
         
