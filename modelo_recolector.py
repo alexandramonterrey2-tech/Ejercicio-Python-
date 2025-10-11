@@ -1,5 +1,3 @@
-from modelo_procesador import Procesador
-
 class Recolector:
         def actualiza_almacen(self):
                 print("Envía novedades al almacén")
@@ -22,6 +20,7 @@ if __name__ == "__main__":
         recolector.envia_novedades(dato_busqueda)
         novedad = input("Ingrese la novedad para procesar: ")
         recolector.procesar_novedad(novedad)
+
 
 
 
