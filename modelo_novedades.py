@@ -1,5 +1,3 @@
-from modelo_producto import Producto
-
 class Novedad(Producto):
     def __init__(self, nombre, precio, autor, editorial, anio_edicion, preferencias, clasificacion, tema):
         super().__init__(nombre, precio, autor, editorial, anio_edicion, preferencias)
@@ -21,4 +19,5 @@ if __name__ == "__main__":
     tema = input("Ingrese el tema: ")
 
     novedad = Novedad(nombre, precio, autor, editorial, anio_edicion, preferencias, clasificacion, tema)
+
     print(f"Novedad: {novedad.nombre}, Clasificación: {novedad.clasificacion}, Tema: {novedad.tema}")
