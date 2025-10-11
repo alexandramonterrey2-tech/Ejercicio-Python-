@@ -1,5 +1,3 @@
-from modelo_producto import Producto
-
 class ArticuloSegundaMano(Producto):
     def __init__(self, nombre, precio, autor, editorial, anio_edicion, preferencias, clasificacion, tema, vendedor):
         super().__init__(nombre, precio, autor, editorial, anio_edicion, preferencias)
@@ -21,3 +19,4 @@ class ArticuloSegundaMano(Producto):
 
     def __str__(self):
         return f"Artículo de Segunda Mano - Clasificación: {self.clasificacion}, Tema: {self.tema}, Vendedor: {self.vendedor}"
+
