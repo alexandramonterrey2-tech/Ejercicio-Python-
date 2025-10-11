@@ -1,5 +1,3 @@
-from modelo_producto import Producto
-
 class Articulo_online(Producto):
     def __init__(self, nombre, precio, autor, editorial, anio_edicion, preferencias, tema):
         super().__init__(nombre, precio, autor, editorial, anio_edicion, preferencias)
@@ -19,4 +17,5 @@ if __name__ == "__main__":
     tema = input("Ingrese el tema: ")
 
     articulo = Articulo_online(nombre, precio, autor, editorial, anio_edicion, preferencias, tema)
+
     articulo.publicar()
