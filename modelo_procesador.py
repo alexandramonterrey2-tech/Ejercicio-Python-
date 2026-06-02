@@ -30,9 +30,7 @@ class Procesador:
     def realiza_busqueda(self, dato_busqueda):
         print("Dato buscado: " + dato_busqueda)
         return dato_busqueda
-
-
-if __name__ == "__main__":
+        
     proc = Procesador()
     articulo = input("Ingrese el nombre del artículo a comprar: ")
     proc.mandar_articulo_online(articulo)
