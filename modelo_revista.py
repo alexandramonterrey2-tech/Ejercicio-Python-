@@ -14,9 +14,7 @@ class Revista(Producto):
         print(f"Precio: {self.precio} | Preferencias: {self.preferencias}\n")
     def __str__(self):
         return f"Revista - Categoría: {self.categoria}"
-
-
-if __name__ == "__main__":
+        
     from modelo_producto import Producto
     nombre = input("Ingrese el nombre de la revista: ")
     precio = input("Ingrese el precio: ")
