@@ -16,7 +16,6 @@ class Editorial:
         print("Venta realizada con éxito")
         print("Gracias por su compra")
 
-if __name__ == "__main__":
     nombre = input("Ingrese el nombre de la editorial: ")
     direccion = input("Ingrese la dirección: ")
     telefono = input("Ingrese el teléfono: ")
