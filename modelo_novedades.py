@@ -7,8 +7,6 @@ class Novedad(Producto):
     def cambiar_clasificacion(self, nueva):
         self.clasificacion = nueva
 
-
-if __name__ == "__main__":
     nombre = input("Ingrese el nombre de la novedad: ")
     precio = input("Ingrese el precio: ")
     autor = input("Ingrese el autor: ")
