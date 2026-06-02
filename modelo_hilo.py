@@ -7,9 +7,7 @@ class Hilo:
     def procesar_novedad(self, novedad):
         print("Procesando novedad desde Hilo...")
         return novedad
-
-
-if __name__ == "__main__":
+        
     hilo = Hilo()
     dato_busqueda = input("Ingrese el dato de búsqueda de novedades: ")
     hilo.busca_novedades(dato_busqueda)
